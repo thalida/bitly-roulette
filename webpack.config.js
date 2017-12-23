@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    publicPath: '/bitly-roulette/dist/',
     filename: 'build.js'
   },
   module: {
